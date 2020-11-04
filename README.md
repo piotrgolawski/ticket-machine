@@ -22,6 +22,7 @@ The usage of the store is also a good idea here.
 
 Git hook on commit with lint and prettier.
 
+Do not use setMethods on wrapper in tests as it is deprecated.
 
 
 Hope you will enjoy

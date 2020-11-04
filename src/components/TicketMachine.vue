@@ -71,7 +71,6 @@ export default class TicketMachine extends Vue {
   private availableStations: Istation[] = [];
 
   public addLetter(letter: string): void {
-    console.log("addletter", letter);
     if (letter && this.letterAvailableToChose(letter)) {
       this.chosenLetters += letter;
       this.setAvailableStations();
